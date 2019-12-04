@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Layout from 'components/Layout'
 import { Container, Col, Row } from 'reactstrap'
-import DrSeussBannerMob from 'images/bg-header-991.jpg'
-import DrSeussBannerDesk from 'images/BOOH-1920x1000pixels.jpg'
+import BoohBannerMob from 'images/BOOH-991x1100pixels.jpg'
+import BoohBannerDesk from 'images/BOOH-1920x1000pixels.jpg'
 import YouTube from "react-youtube"
 import TourList from "components/Tours/TourList"
 import styled from "styled-components"
@@ -117,13 +117,14 @@ class IndexPage extends Component {
 
             <div>
               <a href="https://www.showclix.com/events/29252" target="_blank" rel="noreferrer noopener">
-                <img src={DrSeussBannerMob} alt="Dr Seuss Logo" className="img-fluid d-md-none" />
-                <img src={DrSeussBannerDesk} alt="Dr Seuss Logo" className="img-fluid w-100 d-none d-md-block" />
+                <img src={BoohBannerMob} alt="BOOH Banner" className="img-fluid d-md-none" />
+                <img src={BoohBannerMob} alt="BOOH Banner" className="img-fluid d-md-none" />
+                <img src={BoohBannerDesk} alt="BOOH Banner" className="img-fluid w-100 d-none d-md-block" />
               </a>
             </div>
 
             <Row>
-            <TourList/>
+              <TourList/>
             </Row>
 
             <Row>

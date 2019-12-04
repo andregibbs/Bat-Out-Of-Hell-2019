@@ -11,8 +11,8 @@ const Footer = () => (
 
                         <Col xs={12}>
                             <ul className="footer__links">
-                                <li><Link to="/privacy-policy/">Privacy Policy</Link></li> |
-                                <li><Link to="/cookie-policy/">Cookie Policy</Link></li>
+                                <li><a href="https://batoutofhellmusical.com/privacy-policy">Privacy Policy</a></li> |
+                                <li><a href="https://batoutofhellmusical.com/cookies-policy">Cookie Policy</a></li>
                             </ul>
                         </Col>
 
