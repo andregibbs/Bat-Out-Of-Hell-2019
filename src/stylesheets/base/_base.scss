@@ -1,0 +1,26 @@
+body {
+    overflow-x: hidden;
+    background: $white;
+    line-height: $spacer * 1.2;
+    font-family:"Proxima N W01 Light";
+    font-weight: 400;
+    font-style: normal;
+    font-size: $spacer;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    z-index: 1;
+
+    @include media-breakpoint-up(xl) {
+        width: 100%;
+        // max-width: 100%;
+    }
+}
+
+.container-fluid {
+    @include media-breakpoint-down(xs) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

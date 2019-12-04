@@ -1,0 +1,24 @@
+// Vendors
+@import '~bootstrap/scss/bootstrap';
+
+// Fonts
+@import 'fonts';
+
+// Base
+@import 'base/variables';
+@import 'base/base';
+@import 'base/type';
+@import 'base/buttons';
+@import 'base/mixins';
+@import 'base/helpers';
+
+// Components
+@import 'components/footer';
+@import 'components/header';
+@import 'components/signUp';
+@import 'components/nav';
+@import 'components/readmore';
+@import 'components/cookie';
+
+// Page
+@import 'components/page';

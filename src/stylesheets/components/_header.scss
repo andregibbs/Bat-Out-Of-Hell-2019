@@ -1,0 +1,145 @@
+.header {
+    display: block;
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 501;
+    transition: $transition-base;
+    padding: 0;
+    height: 60px;
+    background: black;
+
+    &.collapsed {
+        transition: $transition-base;
+    }
+
+    &__container {
+        padding: 0;
+        margin: 0 auto;
+        // max-width: 1920px;
+        position: relative;
+        // height: 60px;
+        // background: white;
+        
+        @include media-breakpoint-up(sm) {
+            // height: 59px;
+        }
+
+        
+    }
+
+    &__button-list {
+        position: absolute;
+        right: 0.5rem;
+        top: 0;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        z-index: 501;
+        display: flex;
+        justify-content: center;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+
+        li {
+            list-style: none;
+            width: 100%;
+        }
+
+        &.mobile {
+            li:nth-of-type(2) {
+                div {
+                    padding-left: 24px;
+                }
+            }
+        }
+    }
+
+    &__links {
+        &--social {
+            list-style: none;
+            padding: 0.85rem 3.5rem;
+            margin: 0;
+            position: relative;
+            z-index: 3;
+            width: 100%;
+            display: none;
+
+            @include media-breakpoint-up(sm) {
+                display: block;
+            }
+
+            li {
+                display: inline-block;
+                text-align: center;
+                width: 45px;
+
+                @media (max-width: 399px) {
+                    width: 30px;
+                }
+
+                .icon {
+
+                    & > div {
+                        width: 26px;
+                        height: 26px;
+                        display: inline-block;
+                    }
+
+                    &-facebook > div {
+                        background: url('../images/icons/facebook-white.svg') no-repeat center center;
+
+                        &:hover {
+                            background: url('../images/icons/facebook-white.svg') no-repeat center center;
+                        }
+                    }
+
+                    &-instagram > div {
+                        background: url('../images/icons/instagram-white.svg') no-repeat center center;
+
+                        &:hover {
+                            background: url('../images/icons/instagram-white.svg') no-repeat center center;
+                        }
+                    }
+
+                    &-twitter > div {
+                        background: url('../images/icons/twitter-white.svg') no-repeat center center;
+
+                        &:hover {
+                            background: url('../images/icons/twitter-white.svg') no-repeat center center;
+                        }
+                    }
+
+                    &-youtube > div {
+                        background: url('../images/icons/youtube-white.svg') no-repeat center center;
+
+                        &:hover {
+                            background: url('../images/icons/youtube-white.svg') no-repeat center center;
+                        }
+                    }
+                }
+            }
+
+            &.mobile {
+                visibility: visible;
+                margin: 0 auto;
+                padding-left: 0;
+                overflow: hidden;
+
+                li {
+                    display: inline-block;
+                    width: 50px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+    
+}
+.small-logo {
+    top: 0px;
+    margin-top: -20px;
+    z-index: 9;
+    width: 30px;
+}

@@ -1,0 +1,44 @@
+.read-more {
+	
+	&__btn {
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+		color: inherit;
+        background: #dfe000;
+	}
+
+	&__content {
+		text-align: left;
+	}
+
+	.closed {
+		display: none;
+
+		img {  
+			width: 25px !important;
+			position: relative;
+			top: -2px;
+			right: -10px;
+		}
+	}
+
+	.open {
+
+		img {  
+			width: 25px !important;
+			position: relative;
+			top: -2px;
+			right: -10px;
+		}
+	}
+
+	.active {
+		&.open {
+			display: none;
+		}
+		&.closed {
+			display: block;
+		}
+	}
+}

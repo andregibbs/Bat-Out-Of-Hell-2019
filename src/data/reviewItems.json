@@ -1,0 +1,23 @@
+[
+  {
+    "image": "../images/global-news.png",
+    "review": "“Your mountain is waiting, so get on your way, and make it pronto”",
+    "author": "Global News",
+    "viewmorelink": "https://globalnews.ca/video/6079549/the-dr-seuss-experience-opens-in-gta",
+    "title": "This is the title of the image"
+  },
+  {
+    "image": "../images/today.png",
+    "review": "“It’s a really a great idea”",
+    "author": "The Today Show",
+    "viewmorelink": "https://www.today.com/video/dr-seuss-experience-go-inside-the-immersive-exhibition-72096325543",
+    "title": "This is the title of the image"
+  },
+  { 
+    "image": "../images/morning-ctv.png",
+    "review": "“I never want to leave it”",
+    "author": "CTV Morning Live",
+    "viewmorelink": "https://toronto.ctvnews.ca/oh-the-places-you-ll-go-interactive-dr-seuss-exhibit-opens-in-mississauga-1.4654623",
+    "title": "This is the title of the image"
+  }
+]

@@ -1,0 +1,97 @@
+.btn {
+    // width: 150px;
+    transition: $transition-base;
+    text-decoration: none;
+    font-size: 1.625rem;
+    font-family:"ProximaNovaExtraCondens1529447";
+    display: inline-block;
+    border-radius: 0;
+    cursor: pointer;
+    // margin: 0 auto;
+    position: relative;
+    
+
+    @include media-breakpoint-down(sm) {
+        width: 180px
+    }
+
+    &--black {
+        width: 240px;
+        color: $black;
+        border: 4px solid $black;
+
+        &:hover {
+            color: $white;
+            background: $black;
+        }
+
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+        }
+
+        &-viewmore {
+            width: auto;
+            padding: 6px 20px;
+            display: inline-flex;
+
+            &:hover {
+                color: $black;
+                background: $white;
+            }
+    
+        }
+    }
+
+    &--yellow {
+        color: $white;
+        border: 4px solid $booh-yellow;
+
+        &:hover {
+            color: $white;
+            background: $black;
+        }
+
+        @include media-breakpoint-up(sm) {
+            width: 100%;
+        }
+
+    }
+
+    &--white {
+        padding: 0 20px;
+        background: transparent;
+        color: $white;
+        border: 4px solid $white;;
+        
+        &:hover {
+            color: black;
+            background: $white;
+            border: 4px solid $white;;
+        }
+
+        &-long {
+            padding: 0;
+            width: 240px;
+        }
+    }
+
+    &--red {
+        width: 205px;
+        background: $booh-red;
+        color: $white;
+        border: 4px solid $booh-red;
+        
+        &:hover {
+            color: $booh-red;
+            background: $white;
+            border: 4px solid $booh-red;
+        }
+
+        @include media-breakpoint-up(lg) {
+            width: 255px;
+            line-height: 1;
+        }
+    }
+    
+}
+

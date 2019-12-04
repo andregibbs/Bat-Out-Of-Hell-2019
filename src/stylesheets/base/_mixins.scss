@@ -1,0 +1,34 @@
+@mixin close-button($bgcolor, $color) {
+  height: 36px;
+  width: 36px;
+  background-color: $bgcolor;
+  position: relative;
+  cursor: pointer;
+  border: 0;
+  transition: $transition-base;
+  z-index: 4;
+
+  @include media-breakpoint-up(sm) {
+    height: 50px;
+    width: 50px;
+  }
+
+  &:after,
+  &:before {
+    content: '';
+    background-color: $color;
+    width: 45%;
+    height: 3px;
+    position: absolute;
+    border-radius: 2px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: $transition-base;
+  }
+
+  &:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+}

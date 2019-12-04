@@ -1,0 +1,148 @@
+.footer {
+    background-color: $black;
+    padding: 1rem 0;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+
+
+    a {
+        color: white;
+        text-decoration: underline;
+    }
+
+
+    &-logo {
+        padding-top: 30px;
+
+    @include media-breakpoint-up(sm) {
+        padding: 15px;
+    }
+
+    @include media-breakpoint-up(md) {
+        width: 135px;
+        padding: 0;
+      }
+    }
+
+    &__column {
+        padding: 0.5rem 0;
+    }
+
+    &__buttons {
+        margin-bottom: 0.5rem;
+        list-style: none;
+        padding: 0;
+
+        @include media-breakpoint-up(xl) {
+            display: flex;
+            justify-content: center;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+        }
+
+        li {
+            list-style: none;
+            width: 100%;
+            margin: 0.5rem 0;
+
+            @include media-breakpoint-up(sm) {
+                display: inline-block;
+                width: 50%;
+            }
+
+            @include media-breakpoint-up(xl) {
+                width: initial;
+                float: initial;
+                margin: 0 0.5rem;
+            }
+        }
+    }
+
+    &__links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            padding: 10px 0;
+
+            @include media-breakpoint-up(sm) {
+                padding: 0.25rem 0.5rem;
+            }
+
+            @include media-breakpoint-up(md) {
+                // padding-left: 1rem;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+        &--social {
+            list-style: none;
+            padding: 1rem 0;
+            margin: 0;
+            position: relative;
+            z-index: 3;
+            width: 100%;
+            display: block;
+
+            @include media-breakpoint-up(sm) {
+                // display: none;
+            }
+
+            li {
+                display: inline-block;
+                text-align: center;
+                padding:0 10px;
+
+
+                .icon {
+
+                    & > div {
+                        width: 20px;
+                        height: 20px;
+                        display: inline-block;
+                    }
+
+                    &-facebook > div {
+                        background: url('../images/icons/facebook-white.svg') no-repeat center center;
+                    }
+
+                    &-instagram > div {
+                        background: url('../images/icons/instagram-white.svg') no-repeat center center;
+                    }
+
+                    &-twitter > div {
+                        background: url('../images/icons/twitter-white.svg') no-repeat center center;
+
+                    }
+
+                    &-youtube > div {
+                        background: url('../images/icons/youtube-white.svg') no-repeat center center;
+                    }
+                }
+            }
+
+            &.mobile {
+                visibility: visible;
+                margin: 0 auto;
+                padding-left: 0;
+                overflow: hidden;
+
+                li {
+                    display: inline-block;
+                    width: 50px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

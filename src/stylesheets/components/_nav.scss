@@ -1,0 +1,241 @@
+.main-nav {
+  font-size: 2rem;
+  font-family:"Proxima N W01 X Cd Smbd";
+  text-transform: uppercase;
+  height: 60px;
+
+  &--menu {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+     li {
+       display: inline-block;
+       padding: 0 15px;
+
+       a {
+          color: rgba($color: white, $alpha: 0.59);
+
+           &.active, &:hover {
+           text-decoration: none;
+           color: white;
+         }
+       }
+     }
+  }
+}
+
+
+.nav {
+  transition: $transition-base;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 500;
+  width: 100%;
+  min-height: 100vh;
+  background: $white;
+  font-size: 1.625rem;
+  font-family: "Dr Seuss Light";
+  max-width: initial;
+  transform: translateX(-100%);
+
+  @include media-breakpoint-up(lg) {
+    width: 30%;
+  }
+
+  &__btns{
+    padding: 0;
+    &-book-now {
+      display: none !important;
+    }
+
+    &--social {
+      list-style: none;
+      width: 100%;
+      margin: 0 !important;
+      padding: 0;
+      overflow: hidden;
+
+      @include media-breakpoint-up(sm) {
+        display: none;
+      }
+
+      li {
+        display: inline-block !important;
+        width: 50px;
+        text-align: center;
+        margin: 0 !important;
+
+        .icon {
+
+          & > div {
+            width: 26px;
+            height: 26px;
+            display: inline-block;
+          }
+
+          &-facebook > div {
+            background: url('../images/icons/facebook-white.svg') no-repeat center center;
+
+          }
+
+          &-instagram > div {
+            background: url('../images/icons/instagram-white.svg') no-repeat center center;
+
+          }
+
+          &-twitter > div {
+            background: url('../images/icons/twitter-white.svg') no-repeat center center;
+          }
+
+          &-youtube > div {
+            background: url('../images/icons/youtube-white.svg') no-repeat center center;
+          }
+        }
+      }
+      
+    }
+  }
+
+  ul {
+    margin-top: 4rem;
+    width: 100%;
+    max-height: 100%;
+    margin-bottom: 0;
+    text-align: center;
+
+    li {
+      display: block;
+
+      .link {
+        font-size: 2.625rem;
+        line-height: 1.5;
+        text-transform: uppercase;
+        color: $white;
+        text-decoration: none;
+
+        &.active, &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &.active {
+    transform: translateX(0);
+  }
+
+  &.collapsed {
+    .apply-btn-on-navbar {
+      top: $spacer;
+    }
+  }
+
+}
+
+.nav-toggle {
+  position: absolute;
+  z-index: 501;
+  top: 8px;
+  // left: 8px;
+  background: none;
+  height: 50px;
+  width: 50px;
+  border: none;
+  transition: $transition-base;
+  cursor: pointer;
+
+
+    @include media-breakpoint-down(xs) {
+        top: 4px;
+    }
+
+  &__burger {
+    height: 3px;
+    width: 50%;
+    background-color: $black;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    border-radius: 0;
+    transition: $transition-base;
+    &:before,
+    &:after {
+      content: '';
+      background-color: $black;
+      transition: $transition-base;
+      height: 3px;
+      width: 100%;
+      position: absolute;
+      top: -9px;
+      left: 0;
+      border-radius: 0;
+    }
+    &:after {
+      top: 9px;
+    }
+  }
+
+  &__close, &__open {
+    font-size: 1.5rem;
+    left: 45px;
+    position: relative;
+  }
+
+  &__close {
+    display: none;
+  }
+
+  &:hover {
+    // background: none;
+    .nav-toggle__burger {
+      background: $black;
+      &:before,
+      &:after {
+        background: $black;
+      }
+    }
+  }
+
+  &.active {
+    // background: none;
+    .nav-toggle__burger {
+      background-color: transparent;
+
+      &:before {
+        top: 0;
+        transform: rotate(45deg);
+        background-color: $black;
+      }
+
+      &:after {
+        top: 0;
+        transform: rotate(-45deg);
+        background-color: $black;
+      }
+    }
+
+    .nav-toggle__open {
+      display: none;
+    }
+    .nav-toggle__close {
+      display: block;
+    }
+  }
+
+}
+
+// .mobile-nav {
+
+//   ul li .link {
+//     width: 100%;
+//     text-align: center;
+//     display: block;
+//     font-size: 1.2em;
+//     margin-bottom: 0.5em;
+//   }
+
+// }
