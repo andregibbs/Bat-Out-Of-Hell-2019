@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Layout from 'components/Layout'
 import { Container, Col, Row } from 'reactstrap'
-import DrSeussBannerMob from 'images/bg-header-991.jpg'
-import DrSeussBannerDesk from 'images/BOOH-1920x1000pixels.jpg'
+import BoohBannerMob from 'images/BOOH-991x1100pixels.jpg'
+import BoohBannerDesk from 'images/BOOH-1920x1000pixels.jpg'
 import YouTube from "react-youtube"
 import {media} from "utils/Media"
 import styled from "styled-components"
@@ -63,20 +63,47 @@ const headData = {
 };
 
 class IndexPage extends Component {
+  constructor(props) {
+		super(props)
 
-  showPlaceholder() {
+		this.state = {
+			modal: false,
+			placeholder: true,
+			event: ""
+		}
+
+		this.onReady = this.onReady.bind(this)
+		this.play = this.play.bind(this)
+		this.showPlaceholder = this.showPlaceholder.bind(this)
+	}
+
+	onReady(event) {
+		this.setState({
+			player: event
+		})
+	}
+
+	play() {
+		this.state.player.target.playVideo()
+		this.setState({
+			placeholder: false
+		})
+	}
+
+	showPlaceholder() {
 		this.setState({
 			placeholder: true
 		})
 	}
-  
 
   render() {
 
-    this.state = {
-      placeholder: true,
-      
-    }
+    const opts = {
+      playerVars: { // https://developers.google.com/youtube/player_parameters
+          rel: 0,
+          modestbranding: 1
+      }
+  }
     
 
     return (
@@ -89,8 +116,8 @@ class IndexPage extends Component {
 
             <Row className="bg--home">
               <a href="https://www.showclix.com/events/29252" target="_blank" rel="noreferrer noopener">
-                <img src={DrSeussBannerMob} alt="Dr Seuss Logo" className="img-fluid d-md-none" />
-                <img src={DrSeussBannerDesk} alt="Dr Seuss Logo" className="img-fluid d-none d-md-block" />
+                <img src={BoohBannerMob} alt="Booh Logo" className="img-fluid d-md-none" />
+                <img src={BoohBannerDesk} alt="Booh Logo" className="img-fluid d-none d-md-block" />
               </a>
             </Row>
 
@@ -121,6 +148,7 @@ class IndexPage extends Component {
                         }
                         <YouTube
                           videoId="nr4Qq_ILExQ"
+                          opts={opts}
                           onReady={this.onReady}
                           onEnd={this.showPlaceholder}
                           className="embed-responsive-item"
