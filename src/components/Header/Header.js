@@ -106,10 +106,13 @@ class Header extends Component {
                         <a target="_blank" rel="noopener noreferrer" href="https://batoutofhellmusical.com" className="link">Home</a>
                       </li>
                       <li>
-                        <Link activeClassName="active" to="/tour-dates" className="link">Tour Dates</Link>
+                        <Link activeClassName="active" to="/tour-dates" className="link">UK Tour Dates</Link>
                       </li>
                       <li>
                         <a target="_blank" rel="noopener noreferrer" href="https://batoutofhellmusical.com/media" className="link">Media</a>
+                      </li>
+                      <li>
+                        <a target="_blank" rel="noopener noreferrer" href="https://batoutofhellmusical.com/cast-and-creative" className="link">Creative</a>
                       </li>
                       <li>
                         <a target="_blank" rel="noopener noreferrer" href="http://www.batoutofhellmusical.com.au/" className="link">Australia</a>
