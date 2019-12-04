@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import Layout from 'components/Layout'
 import { Container, Col, Row } from 'reactstrap'
-import BoohBannerMob from 'images/BOOH-991x1100pixels.jpg'
+import BoohBannerMob from 'images/BOOH-576x1000pixels.jpg'
+import BoohBannerTablet from 'images/BOOH-991x1100pixels.jpg'
 import BoohBannerDesk from 'images/BOOH-1920x1000pixels.jpg'
 import YouTube from "react-youtube"
 import TourList from "components/Tours/TourList"
@@ -118,8 +119,8 @@ class IndexPage extends Component {
             <div>
               <a href="https://www.showclix.com/events/29252" target="_blank" rel="noreferrer noopener">
                 <img src={BoohBannerMob} alt="BOOH Banner" className="img-fluid d-md-none" />
-                <img src={BoohBannerMob} alt="BOOH Banner" className="img-fluid d-md-none" />
-                <img src={BoohBannerDesk} alt="BOOH Banner" className="img-fluid w-100 d-none d-md-block" />
+                <img src={BoohBannerTablet} alt="BOOH Banner" className="img-fluid d-md-block d-lg-none" />
+                <img src={BoohBannerDesk} alt="BOOH Banner" className="img-fluid w-100 d-none d-lg-block" />
               </a>
             </div>
 
@@ -131,11 +132,11 @@ class IndexPage extends Component {
               <Container className="px-0 pt-3 py-md-5 text-center">
                 <Row>
                    <Col xs={12}>
-                    <div class="col-xs-12 text-center home">
-                      <h1 class="mb-0">WINNER! BEST MUSICAL</h1>
+                    <div className="col-xs-12 text-center home">
+                      <h1 className="mb-0">WINNER! BEST MUSICAL</h1>
                       <h4>London Evening Standard Theatre Awards</h4>
                     </div>
-                    <div class="col-sm-12 col-md-9 mx-auto text-center">
+                    <div className="col-sm-12 col-md-9 mx-auto text-center">
                       <br />
                       <p>Direct from electrifying audiences in London, Toronto, Germany and New York, Jim Steinman’s spectacular musical <strong>Bat Out of Hell</strong> hits the road on a UK tour in 2020.</p>
                       <p>Bringing to life the legendary anthems of <strong>Jim Steinman</strong> & <strong>Meat Loaf</strong>, this critically-acclaimed production uniquely combines the magic and excitement of a musical with the immense energy of rock ‘n’ roll. Join Strat, the forever young leader of rebellious gang ‘The Lost’ as he falls in love with Raven, the beautiful daughter of the tyrannical ruler of Obsidian.</p>
