@@ -154,10 +154,10 @@ class Header extends Component {
               <Link activeClassName="active" to="/tour-dates" className="link">Tour Dates</Link>
             </li>
             <li>
-              <a target="_blank" rel="noopener noreferrer" href="http://dev.batoutofhellmusical.com/website/media.php" className="link">Media</a>
+              <a href="http://dev.batoutofhellmusical.com/website/media.php" className="link">Media</a>
             </li>
             <li>
-              <a target="_blank" rel="noopener noreferrer" href="http://dev.batoutofhellmusical.com/website/cast-and-creative.php" className="link">Creative</a>
+              <a href="http://dev.batoutofhellmusical.com/website/cast-and-creative.php" className="link">Creative</a>
             </li>
             <li>
               <a target="_blank" rel="noopener noreferrer" href="http://www.batoutofhellmusical.com.au/" className="link">Australia</a>
