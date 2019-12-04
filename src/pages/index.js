@@ -125,15 +125,15 @@ class IndexPage extends Component {
               <Container className="px-0 pt-3 py-md-5 text-center">
                 <Row>
                   <Col xs={12}>
-                    <div class="col-xs-12 text-center home">
-                      <h1 class="text-red">WINNER! BEST MUSICAL</h1>
+                    <div className="col-xs-12 text-center home">
+                      <h1 className="text-red">WINNER! BEST MUSICAL</h1>
                       <h2>London Evening Standard Theatre Awards</h2>
                     </div>
-                    <div class="col-sm-12 col-md-10 offset-md-1">
+                    <div className="col-sm-12 col-md-10 offset-md-1">
                       <br />
-                      <p class="text-lg text-center">Following sell out seasons in London and Toronto, Jim Steinman’s smash-hit musical <strong>Bat Out of Hell </strong>heats up New York City Center this summer for six unmissable weeks only!</p>
-                      <p class="text-lg text-center">This award-winning musical thunders through Meat Loaf’s legendary anthems including <em>I’d Do Anything For Love (But I Won’t Do That)</em>, <em>Paradise By The Dashboard Light</em>, <em>Two Out Of Three Ain’t Bad, Dead Ringer For Love</em> and <em>Bat Out of Hell</em>, in a theatrical spectacle unlike any other.</p>
-                      <p class="text-lg text-center">Tickets from $45.00. Book your tickets now!</p>
+                      <p className="text-lg text-center">Following sell out seasons in London and Toronto, Jim Steinman’s smash-hit musical <strong>Bat Out of Hell </strong>heats up New York City Center this summer for six unmissable weeks only!</p>
+                      <p className="text-lg text-center">This award-winning musical thunders through Meat Loaf’s legendary anthems including <em>I’d Do Anything For Love (But I Won’t Do That)</em>, <em>Paradise By The Dashboard Light</em>, <em>Two Out Of Three Ain’t Bad, Dead Ringer For Love</em> and <em>Bat Out of Hell</em>, in a theatrical spectacle unlike any other.</p>
+                      <p className="text-lg text-center">Tickets from $45.00. Book your tickets now!</p>
                       <br />
                     </div>
                   </Col>
