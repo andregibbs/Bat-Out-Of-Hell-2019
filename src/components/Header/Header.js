@@ -106,7 +106,7 @@ class Header extends Component {
                         <a target="_blank" rel="noopener noreferrer" href="https://batoutofhellmusical.com" className="link">Home</a>
                       </li>
                       <li>
-                        <Link activeClassName="active"  to="/tour-dates" className="link">Tour Dates</Link>
+                        <Link activeClassName="active" to="/tour-dates" className="link">Tour Dates</Link>
                       </li>
                       <li>
                         <a target="_blank" rel="noopener noreferrer" href="https://batoutofhellmusical.com/media" className="link">Media</a>
@@ -134,9 +134,9 @@ class Header extends Component {
               <span className="nav-toggle__open text--light">Menu</span>
               <span className="nav-toggle__close text--light">Close</span>
             </button>
-            <div className="d-md-none text-right">
+            {/* <div className="d-md-none text-right">
               <a href="https://www.showclix.com/events/29252" target="_blank" rel="noreferrer noopener" className="btn btn--red">Book Tickets</a>
-            </div>
+            </div> */}
 
           </div>
         </header>
@@ -145,29 +145,16 @@ class Header extends Component {
           className={`nav mobile-nav ${navToggled ? 'active' : ''}  ${collapsed || blueWithoutScroll ? 'collapsed' : ''}`}>
           <ul className="nav__btns">
             <li>
-              <Link activeClassName="active" to="/" className="link home" onClick={this.onMobileClick}>Home</Link>
-            </li>
-
-            <li className="nav__btns-book-now">
-              <a href="https://www.showclix.com/events/29252"
-                target="_blank"
-                rel="noreferrer noopener"
-                aria-label="Book Now"
-                className="btn btn--red btn-book-tickets-in-nav"
-                onClick={this.onMobileClick}>Book Online</a>
-            </li>
-
-            <li>
-              <Link activeClassName="active" to="#visit" className="link visit" onClick={this.onMobileClick}>Directions</Link>
+              <a target="_blank" rel="noopener noreferrer" href="https://batoutofhellmusical.com" className="link">Home</a>
             </li>
             <li>
-              <Link activeClassName="active" to="/faq" className="link faq" onClick={this.onMobileClick}>FAQ</Link>
+              <Link activeClassName="active" to="/tour-dates" className="link">Tour Dates</Link>
             </li>
             <li>
-              <Link activeClassName="active" to="/press" className="link press" onClick={this.onMobileClick}>Press</Link>
+              <a target="_blank" rel="noopener noreferrer" href="https://batoutofhellmusical.com/media" className="link">Media</a>
             </li>
             <li>
-              <Link activeClassName="active" to="#register" className="link register" onClick={this.onMobileClick}>Register</Link>
+              <a target="_blank" rel="noopener noreferrer" href="http://www.batoutofhellmusical.com.au/" className="link">Australia</a>
             </li>
           </ul>
         </nav>

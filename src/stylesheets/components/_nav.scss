@@ -35,9 +35,9 @@
   z-index: 500;
   width: 100%;
   min-height: 100vh;
-  background: $white;
+  background: $black;
   font-size: 1.625rem;
-  font-family: "Dr Seuss Light";
+  font-family:"Proxima N W01 X Cd Smbd";
   max-width: initial;
   transform: translateX(-100%);
 
@@ -192,10 +192,10 @@
   &:hover {
     // background: none;
     .nav-toggle__burger {
-      background: $black;
+      background: $white;
       &:before,
       &:after {
-        background: $black;
+        background: $white;
       }
     }
   }
@@ -208,13 +208,13 @@
       &:before {
         top: 0;
         transform: rotate(45deg);
-        background-color: $black;
+        background-color: $white;
       }
 
       &:after {
         top: 0;
         transform: rotate(-45deg);
-        background-color: $black;
+        background-color: $white;
       }
     }
 

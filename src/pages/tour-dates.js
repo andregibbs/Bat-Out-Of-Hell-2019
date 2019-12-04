@@ -118,8 +118,8 @@ class IndexPage extends Component {
 
             <div>
               <a href="https://www.showclix.com/events/29252" target="_blank" rel="noreferrer noopener">
-                <img src={BoohBannerMob} alt="BOOH Banner" className="img-fluid d-md-none" />
-                <img src={BoohBannerTablet} alt="BOOH Banner" className="img-fluid d-md-block d-lg-none" />
+                <img src={BoohBannerMob} alt="BOOH Banner" className="img-fluid w-100 d-md-none" />
+                <img src={BoohBannerTablet} alt="BOOH Banner" className="img-fluid w-100 d-none d-md-block d-lg-none" />
                 <img src={BoohBannerDesk} alt="BOOH Banner" className="img-fluid w-100 d-none d-lg-block" />
               </a>
             </div>
