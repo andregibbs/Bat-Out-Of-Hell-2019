@@ -46,7 +46,7 @@ class GalleryPage extends Component {
         const galleryItems = items.map((item, i) => {
             images.push(item.node.image.childImageSharp.fluid.src)
             return (
-                <Col xs={12} sm={6} lg={2} key={i}>
+                <Col xs={12} sm={6} lg={3} key={i} className="px-0 py-3 p-md-3">
                     <div
                         tabIndex={i} role="button" aria-pressed="false"
                         className="photo-wrapper"
@@ -69,16 +69,15 @@ class GalleryPage extends Component {
             >
                 <section className="page bg--black">
                     <div className="page-container">
-                        <Container fluid={true}>
+                        <Container fluid={true} className="px-0">
 
                             <div>
-                                    <img src={BoohBannerMob} alt="BOOH Banner" className="img-fluid w-100 d-md-none" />
-                                    <img src={BoohBannerTablet} alt="BOOH Banner" className="img-fluid w-100 d-none d-md-block d-lg-none" />
-                                    <img src={BoohBannerDesk} alt="BOOH Banner" className="img-fluid w-100 d-none d-lg-block" />
-
+                                <img src={BoohBannerMob} alt="BOOH Banner" className="img-fluid w-100 d-md-none" />
+                                <img src={BoohBannerTablet} alt="BOOH Banner" className="img-fluid w-100 d-none d-md-block d-lg-none" />
+                                <img src={BoohBannerDesk} alt="BOOH Banner" className="img-fluid w-100 d-none d-lg-block" />
                             </div>
 
-                            <h1 className="big-text text-center">Media</h1>
+                            <h1 className="big-text text-center pt-5 text--red">Media</h1>
 
                             <Row>
                                 <Container className="px-0 pt-3 py-md-5 text-center">
@@ -89,12 +88,11 @@ class GalleryPage extends Component {
                             <Container>
 
                                 <div className="photos">
-                                  <h1 className="big-text text-center">Photographs</h1>
+                                  <h1 className="big-text text-center pb-5 text--red">Photographs</h1>
                                     <Row className="justify-content-center">
                                         {galleryItems}
-
-                                        <p>London 2018 Cast. Photography by Specular</p>
                                     </Row>
+                                    <p className="py-5 text-center mb-0">London 2018 Cast. Photography by Specular</p>
                                 </div>
 
                             </Container>

@@ -1,142 +1,42 @@
 [
   {
-    "image": "../images/gallery/White-Christmas-11398_Michael.jpg",
-    "thumb": "../images/gallery/thumbs/White-Christmas-11398_Michael.jpg"
+    "image": "../images/gallery/1.jpg",
+    "thumb": "../images/gallery/thumbs/1-thumb.jpg"
   },
   {
-    "image": "../images/gallery/White-Christmas-11687_Brenda.jpg",
-    "thumb": "../images/gallery/thumbs/White-Christmas-11687_Brenda.jpg"
+    "image": "../images/gallery/2.jpg",
+    "thumb": "../images/gallery/thumbs/2-thumb.jpg"
   },
   {
-    "image": "../images/gallery/White-Christmas-11699_Danielle.jpg",
-    "thumb": "../images/gallery/thumbs/White-Christmas-11699_Danielle.jpg"
+    "image": "../images/gallery/3.jpg",
+    "thumb": "../images/gallery/thumbs/3-thumb.jpg"
   },
   {
-    "image": "../images/gallery/White-Christmas-11723_Clare.jpg",
-    "thumb": "../images/gallery/thumbs/White-Christmas-11723_Clare.jpg"
+    "image": "../images/gallery/4.jpg",
+    "thumb": "../images/gallery/thumbs/4-thumb.jpg"
   },
   {
-    "image": "../images/gallery/White-Christmas-11755_Dan.jpg",
-    "thumb": "../images/gallery/thumbs/White-Christmas-11755_Dan.jpg"
+    "image": "../images/gallery/5.jpg",
+    "thumb": "../images/gallery/thumbs/5-thumb.jpg"
   },
   {
-    "image": "../images/gallery/White-Christmas-11805_Danny.jpg",
-    "thumb": "../images/gallery/thumbs/White-Christmas-11805_Danny.jpg"
+    "image": "../images/gallery/6.jpg",
+    "thumb": "../images/gallery/thumbs/6-thumb.jpg"
   },
   {
-    "image": "../images/gallery/WC_Danny-Mac-Dan-Burton.jpg",
-    "thumb": "../images/gallery/thumbs/WC_Danny-Mac-Dan-Burton.jpg"
+    "image": "../images/gallery/7.jpg",
+    "thumb": "../images/gallery/thumbs/7-thumb.jpg"
   },
   {
-    "image": "../images/gallery/01_WhiteXmas2019JP_15285.jpg",
-    "thumb": "../images/gallery/thumbs/01_WhiteXmas2019JP_15285.jpg"
+    "image": "../images/gallery/8.jpg",
+    "thumb": "../images/gallery/thumbs/8-thumb.jpg"
   },
   {
-    "image": "../images/gallery/02_WhiteXmas2019JP_01268.jpg",
-    "thumb": "../images/gallery/thumbs/02_WhiteXmas2019JP_01268.jpg"
+    "image": "../images/gallery/9.jpg",
+    "thumb": "../images/gallery/thumbs/9-thumb.jpg"
   },
   {
-    "image": "../images/gallery/03_WhiteXmas2019JP_02035.jpg",
-    "thumb": "../images/gallery/thumbs/03_WhiteXmas2019JP_02035.jpg"
-  },
-  {
-    "image": "../images/gallery/04_WhiteXmas2019JP_02351.jpg",
-    "thumb": "../images/gallery/thumbs/04_WhiteXmas2019JP_02351.jpg"
-  },
-  {
-    "image": "../images/gallery/05_WhiteXmas2019JP_02742.jpg",
-    "thumb": "../images/gallery/thumbs/05_WhiteXmas2019JP_02742.jpg"
-  },
-  {
-    "image": "../images/gallery/06_WhiteXmas2019JP_00294.jpg",
-    "thumb": "../images/gallery/thumbs/06_WhiteXmas2019JP_00294.jpg"
-  },
-  {
-    "image": "../images/gallery/07_WhiteXmas2019JP_02386.jpg",
-    "thumb": "../images/gallery/thumbs/07_WhiteXmas2019JP_02386.jpg"
-  },
-  {
-    "image": "../images/gallery/08_WhiteXmas2019JP_04243.jpg",
-    "thumb": "../images/gallery/thumbs/08_WhiteXmas2019JP_04243.jpg"
-  },
-  {
-    "image": "../images/gallery/09_WhiteXmas2019JP_07199.jpg",
-    "thumb": "../images/gallery/thumbs/09_WhiteXmas2019JP_07199.jpg"
-  },
-  {
-    "image": "../images/gallery/10_WhiteXmas2019JP_08742.jpg",
-    "thumb": "../images/gallery/thumbs/10_WhiteXmas2019JP_08742.jpg"
-  },
-  {
-    "image": "../images/gallery/11_WhiteXmas2019JP_06403.jpg",
-    "thumb": "../images/gallery/thumbs/11_WhiteXmas2019JP_06403.jpg"
-  },
-  {
-    "image": "../images/gallery/12_WhiteXmas2019JP_18295.jpg",
-    "thumb": "../images/gallery/thumbs/12_WhiteXmas2019JP_18295.jpg"
-  },
-  {
-    "image": "../images/gallery/13_WhiteXmas2019JP_08917.jpg",
-    "thumb": "../images/gallery/thumbs/13_WhiteXmas2019JP_08917.jpg"
-  },
-  {
-    "image": "../images/gallery/14_WhiteXmas2019JP_30405.jpg",
-    "thumb": "../images/gallery/thumbs/14_WhiteXmas2019JP_30405.jpg"
-  },
-  {
-    "image": "../images/gallery/15_WhiteXmas2019JP_00125.jpg",
-    "thumb": "../images/gallery/thumbs/15_WhiteXmas2019JP_00125.jpg"
-  },
-  {
-    "image": "../images/gallery/16_WhiteXmas2019JP_05702.jpg",
-    "thumb": "../images/gallery/thumbs/16_WhiteXmas2019JP_05702.jpg"
-  },
-  {
-    "image": "../images/gallery/17_WhiteXmas2019JP_00817.jpg",
-    "thumb": "../images/gallery/thumbs/17_WhiteXmas2019JP_00817.jpg"
-  },
-  {
-    "image": "../images/gallery/18_WhiteXmas2019JP_15285.jpg",
-    "thumb": "../images/gallery/thumbs/18_WhiteXmas2019JP_15285.jpg"
-  },
-  {
-    "image": "../images/gallery/19_WhiteXmas2019JP_06245.jpg",
-    "thumb": "../images/gallery/thumbs/19_WhiteXmas2019JP_06245.jpg"
-  },
-  {
-    "image": "../images/gallery/20_WhiteXmas2019JP_15578.jpg",
-    "thumb": "../images/gallery/thumbs/20_WhiteXmas2019JP_15578.jpg"
-  },
-  {
-    "image": "../images/gallery/21_WhiteXmas2019JP_02936.jpg",
-    "thumb": "../images/gallery/thumbs/21_WhiteXmas2019JP_02936.jpg"
-  },
-  {
-    "image": "../images/gallery/22_WhiteXmas2019JP_05480.jpg",
-    "thumb": "../images/gallery/thumbs/22_WhiteXmas2019JP_05480.jpg"
-  },
-  {
-    "image": "../images/gallery/23_WhiteXmas2019JP_03405.jpg",
-    "thumb": "../images/gallery/thumbs/23_WhiteXmas2019JP_03405.jpg"
-  },
-  {
-    "image": "../images/gallery/WC_Picks_1Y0A0015-C1_RT.jpg",
-    "thumb": "../images/gallery/thumbs/WC_Picks_1Y0A0015-C1_RT.jpg"
-  },
-  {
-    "image": "../images/gallery/WC_Picks_1Y0A9960-C1_RT.jpg",
-    "thumb": "../images/gallery/thumbs/WC_Picks_1Y0A9960-C1_RT.jpg"
-  },
-  {
-    "image": "../images/gallery/WC_Picks_1Y0A9980-C1_RT.jpg",
-    "thumb": "../images/gallery/thumbs/WC_Picks_1Y0A9980-C1_RT.jpg"
-  },
-  {
-    "image": "../images/gallery/WC_Picks_2D5A2398-C1_RT.jpg",
-    "thumb": "../images/gallery/thumbs/WC_Picks_2D5A2398-C1_RT.jpg"
-  },
-  {
-    "image": "../images/gallery/WC_Picks_2D5A2529-C1_RT.jpg",
-    "thumb": "../images/gallery/thumbs/WC_Picks_2D5A2529-C1_RT.jpg"
+    "image": "../images/gallery/10.jpg",
+    "thumb": "../images/gallery/thumbs/10-thumb.jpg"
   }
 ]

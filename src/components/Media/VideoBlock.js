@@ -361,28 +361,16 @@ class VideoBlock extends Component {
                             {videosList}
 
                             <Col xs={12} className="d-md-none py-4 px-0" onClick={this.play}>
-                                <MobileIframe src="https://www.youtube.com/embed/cyij1DjhQ5M" frameBorder="0"
+                                <MobileIframe src="https://www.youtube.com/embed/Vm0JdAdBuIw" frameBorder="0"
                                               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                               allowfullscreen></MobileIframe>
-                                <VideoName>Stephen Brackett answers the questions in your head - Part 1</VideoName>
+                                {/* <VideoName>Stephen Brackett answers the questions in your head - Part 1</VideoName> */}
                             </Col>
                             <Col xs={12} className="d-md-none py-4 px-0" onClick={this.play}>
-                                <MobileIframe src="https://www.youtube.com/embed/ly6zOKnShpE" frameBorder="0"
+                                <MobileIframe src="https://www.youtube.com/embed/e9jyzhJ5EnU" frameBorder="0"
                                               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                               allowfullscreen></MobileIframe>
-                                <VideoName>Stephen Brackett answers the questions in your head - Part 2</VideoName>
-                            </Col>
-                            <Col xs={12} className="d-md-none py-4 px-0" onClick={this.play}>
-                                <MobileIframe src="https://www.youtube.com/embed/I7U6idMXksk" frameBorder="0"
-                                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                              allowfullscreen></MobileIframe>
-                                <VideoName>Stephen Brackett answers the questions in your head - Part 3</VideoName>
-                            </Col>
-                            <Col xs={12} className="d-md-none py-4 px-0" onClick={this.play}>
-                                <MobileIframe src="https://www.youtube.com/embed/sk2k-oyae8s" frameBorder="0"
-                                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                              allowfullscreen></MobileIframe>
-                                <VideoName>GET READY, LONDON TRAILER</VideoName>
+                                {/* <VideoName>Stephen Brackett answers the questions in your head - Part 2</VideoName> */}
                             </Col>
                         </VideoPlaylist>
 
