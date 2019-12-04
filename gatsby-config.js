@@ -84,7 +84,7 @@ module.exports = {
               }`
           }
       },
-      `gatsby-plugin-remove-serviceworker`,
-    //   'gatsby-plugin-offline',
+      // `gatsby-plugin-remove-serviceworker`,
+      'gatsby-plugin-offline',
   ],
 }
