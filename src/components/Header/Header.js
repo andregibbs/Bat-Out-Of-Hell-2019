@@ -103,7 +103,7 @@ class Header extends Component {
                       <li>
                         <Link activeClassName="active" to="/" className="link">Home</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link activeClassName="active" to="/tour-dates" className="link">UK Tour Dates</Link>
                       </li>
                       <li>
@@ -112,7 +112,7 @@ class Header extends Component {
                       </li>
                       <li>
                         <Link activeClassName="active" to="/cast-creative" className="link">Creative</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="http://www.batoutofhellmusical.com.au/" className="link" target="_blank" rel="noopener noreferrer">Australia</a>
                       </li>
