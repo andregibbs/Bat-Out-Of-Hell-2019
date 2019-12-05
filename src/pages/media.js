@@ -66,6 +66,7 @@ class GalleryPage extends Component {
         return (
             <Layout
                 headData={headData}
+                navGlobal={true}
             >
                 <section className="page bg--black">
                     <div className="page-container">

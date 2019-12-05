@@ -18,7 +18,7 @@ class Layout extends Component {
     }
 
     render() {
-        const {children, headData, displayLogo,} = this.props;
+        const {children, headData, displayLogo, navGlobal} = this.props;
 
         return (
             <>
@@ -107,7 +107,10 @@ class Layout extends Component {
                 `,
                     }}
                 />
-                <Header displayLogo={displayLogo}/>
+                <Header 
+                displayLogo={displayLogo}
+                navGlobal={navGlobal}
+                />
 
                 {children}
                 <Footer/>

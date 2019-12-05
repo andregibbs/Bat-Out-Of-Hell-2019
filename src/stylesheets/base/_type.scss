@@ -54,7 +54,7 @@ p {
 }
 
 a {
-    color: $black;
+    color: $booh-yellow;
     text-decoration: none;
 }
 
@@ -65,20 +65,8 @@ a {
     &--red {
         color: $booh-red;
     }
-    &--teal {
-        color: $booh-teal;
-    }
-    &--bold {
-        font-family:"Dr Seuss Bold";
-    }
-    &--light {
-        font-family:"Dr Seuss Light";
-    }
     &--size-down {
         font-size: 2.8rem;
-    }
-    &--blue {
-        color: $booh-blue;
     }
     &--smaller {
         font-size: 1.225rem;

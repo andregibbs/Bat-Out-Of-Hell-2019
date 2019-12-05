@@ -50,7 +50,7 @@ const Footer = () => (
 
                 <Col xs={12}>
                     <ul className="footer__links">
-                        <li>© 2016 Bat Out Of Hell</li> |
+                        <li>© 2019 Bat Out Of Hell</li> |
                 <li>All rights reserved</li><br />
                 <li> Designed and built by  <a href="https://www.dewynters.com/"
                             target="_blank"
