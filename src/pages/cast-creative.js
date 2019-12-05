@@ -14,8 +14,8 @@ import {
 import CustomCollapse from 'components/CustomCollapse'
 
 const headData = {
-    title: 'White Christmas | Cast & Creative',
-    description: 'The official cast and creative page for Irving Berlin’s WHITE CHRISTMAS The Musical at the Dominion Theatre. Starring Danny Mac and Dan Burton, directed by Curve, Leicester’s artistic director Nikolai Foster, choreographed by Stephen Mear.',
+    title: 'Bat out of Hell | Cast & Creative',
+    description: '',
 };
 
 class CastCollapse extends Component {

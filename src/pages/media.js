@@ -13,7 +13,7 @@ import Img from 'gatsby-image'
 
 
 const headData = {
-    title: 'White Christmas | Media',
+    title: 'Bat out of Hell | Media',
     description: '',
 };
 

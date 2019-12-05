@@ -37,18 +37,14 @@ class IndexPage extends Component {
 
 
                   <div className="border__white">
-                    <Link to="#">
+                    <Link to="/uk-tour">
                       <div className="flag-container">
 
                         <img src={UKFlag} alt="UK flag" className="flag" />
                       </div>
                       <div className="text-container text-left">
-                        {/* <h1 className="text-left">UK TOUR 2020 </h1>
-                        <p className="mb-0">Tickets on sale 10am 9 December 2019</p> */}
-                        <h1 className="text-left">FUTURE PRODUCTIONS - UK  </h1>
-                        <p className="mb-0">Sign up to be the first to hear the latest news</p>
-
-                        
+                        <h1 className="text-left">UK TOUR 2020 </h1>
+                        <p className="mb-0">Tickets on sale 10am 9 December 2019</p>
                       </div> 
                      </Link>
                   </div>
