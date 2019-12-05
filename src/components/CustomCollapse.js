@@ -131,14 +131,14 @@ class CustomCollapseItem extends Component {
                         id={`collapseContent${this.props.id}${this.props.type}`}
                     >
                         <div className="c-collapse__item-content-inner">
-                            <div className="w-100 text-right">
-                                <img onClick={(e) => this.props.clickHandler(e, this.props.id, this.props.type)} class="close-icon d-none d-sm-inline-block" src={closeIcon} alt="close" />
-                            </div>
                             {contentimage}
                             <Container>
                                 <div className="c-collapse__item-content-inner-bg"
                                      dangerouslySetInnerHTML={{__html: element.bio}}/>
                             </Container>
+                             <div className="w-100 text-center">
+                                <img onClick={(e) => this.props.clickHandler(e, this.props.id, this.props.type)} class="close-icon d-none d-sm-inline-block" src={closeIcon} alt="close" />
+                            </div>
                         </div>
                     </div>
                 }

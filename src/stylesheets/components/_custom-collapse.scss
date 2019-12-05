@@ -22,7 +22,7 @@
     // }
 
     @include media-breakpoint-up(lg) {
-      width: 25%;
+       width: 33.3%;
     }
 
     @include media-breakpoint-down(xs) {
@@ -171,7 +171,7 @@
       flex-wrap: wrap;
       justify-content: center;
       transition: height .3s ease;
-      color: $black;
+      color: $white;
       background-color: $black;
 
       @include media-breakpoint-down(xs) {
@@ -276,17 +276,19 @@
       // }
 
       a {
-          border: 0;
-          font-size: 1.6rem;
+          border: none;
+          font-size: 2.5rem;
           cursor: pointer;
           font-weight: bold;
           padding: $spacer / 2 $spacer * 2;
           color: $booh-red !important;
+          background: none !important;
+
           // padding: 15%;
 
           &:hover, &.active {
-            color: black !important;
-            text-decoration: underline;
+            // color: black !important;
+            // text-decoration: underline;
           }
       }
 
