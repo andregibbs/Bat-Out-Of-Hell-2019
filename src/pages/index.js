@@ -37,7 +37,7 @@ class IndexPage extends Component {
 
 
                   <div className="border__white">
-                    <Link to="/tour-dates">
+                    <Link to="/uk-tour">
                       <div className="flag-container">
 
                         <img src={UKFlag} alt="UK flag" className="flag" />

@@ -104,9 +104,10 @@ class Header extends Component {
                         <Link activeClassName="active" to="/" className="link">Home</Link>
                       </li>
                       {/* <li>
-                        <Link activeClassName="active" to="/tour-dates" className="link">UK Tour Dates</Link>
+                        <Link activeClassName="active" to="/uk-tour" className="link">UK Tour Dates</Link>
                       </li>
                       <li>
+
                         <Link activeClassName="active" to="/media" className="link">Media</Link>
                       </li>
                       <li>
@@ -149,15 +150,15 @@ class Header extends Component {
            <li>
                 <Link activeClassName="active" to="/" className="link">Home</Link>
             </li>
-            <li>
-              <Link activeClassName="active" to="/tour-dates" className="link">Tour Dates</Link>
+            {/* <li>
+              <Link activeClassName="active" to="/uk-tour" className="link">Tour Dates</Link>
             </li>
-           <li>
+            <li>
                <Link activeClassName="active" to="/media" className="link">Media</Link>
             </li>
            <li>
                 <Link activeClassName="active" to="/cast-creative" className="link">Creative</Link>
-            </li>
+            </li> */}
             <li>
               <a target="_blank" rel="noopener noreferrer" href="http://www.batoutofhellmusical.com.au/" className="link">Australia</a>
             </li>
