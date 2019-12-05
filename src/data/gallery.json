@@ -1,0 +1,42 @@
+[
+  {
+    "image": "../images/gallery/1.jpg",
+    "thumb": "../images/gallery/thumbs/1-thumb.jpg"
+  },
+  {
+    "image": "../images/gallery/2.jpg",
+    "thumb": "../images/gallery/thumbs/2-thumb.jpg"
+  },
+  {
+    "image": "../images/gallery/3.jpg",
+    "thumb": "../images/gallery/thumbs/3-thumb.jpg"
+  },
+  {
+    "image": "../images/gallery/4.jpg",
+    "thumb": "../images/gallery/thumbs/4-thumb.jpg"
+  },
+  {
+    "image": "../images/gallery/5.jpg",
+    "thumb": "../images/gallery/thumbs/5-thumb.jpg"
+  },
+  {
+    "image": "../images/gallery/6.jpg",
+    "thumb": "../images/gallery/thumbs/6-thumb.jpg"
+  },
+  {
+    "image": "../images/gallery/7.jpg",
+    "thumb": "../images/gallery/thumbs/7-thumb.jpg"
+  },
+  {
+    "image": "../images/gallery/8.jpg",
+    "thumb": "../images/gallery/thumbs/8-thumb.jpg"
+  },
+  {
+    "image": "../images/gallery/9.jpg",
+    "thumb": "../images/gallery/thumbs/9-thumb.jpg"
+  },
+  {
+    "image": "../images/gallery/10.jpg",
+    "thumb": "../images/gallery/thumbs/10-thumb.jpg"
+  }
+]

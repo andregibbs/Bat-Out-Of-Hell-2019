@@ -113,6 +113,7 @@ class IndexPage extends Component {
 
         <Layout
           headData={headData}
+          navGlobal={true}
         >
           <div className="page bg--black">
 

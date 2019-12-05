@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import { Col, Row } from 'reactstrap'
 // import YoutubeModal from 'components/YoutubeModal/YoutubeModal'
-// import Pagelogo from 'images/big-logo-40px.png'
 
 class Header extends Component {
   constructor(props) {
@@ -57,13 +56,15 @@ class Header extends Component {
   render() {
     const { navToggled, collapsed } = this.state;
     const blueWithoutScroll = this.props.blueWithoutScroll;
+    const { navGlobal } = this.props
 
     return (
-      <>
+      <>  
+      {navGlobal &&    
+       <>
         <header className={`header ${collapsed || blueWithoutScroll ? 'collapsed' : ''}`}>
           <div className="header__container">
-            <div className="d-none d-md-block">
-
+            <div className="d-none d-md-block">      
               <nav id="navbarSupportedContent" className="main-nav">
                 <Row className="h-100 d-flex align-items-center ">
 
@@ -99,30 +100,28 @@ class Header extends Component {
                   </Col>
                   <Col md={7} >
                     <ul className="main-nav--menu h-100 d-flex align-items-center justify-content-end">
-                      {/* <li>
-                        <Link activeClassName="active" to="/" className="link">Home</Link>
-                      </li> */}
                       <li>
-                        <a target="_blank" rel="noopener noreferrer" href="https://batoutofhellmusical.com" className="link">Home</a>
+                        <Link activeClassName="active" to="/" className="link">Home</Link>
                       </li>
                       <li>
                         <Link activeClassName="active" to="/tour-dates" className="link">UK Tour Dates</Link>
                       </li>
                       <li>
-                        <a href="https://dev.batoutofhellmusical.com/website/media.php" className="link">Media</a>
+
+                        <Link activeClassName="active" to="/media" className="link">Media</Link>
                       </li>
                       <li>
-                        <a href="https://dev.batoutofhellmusical.com/website/cast-and-creative.php" className="link">Creative</a>
+                        <Link activeClassName="active" to="/cast-creative" className="link">Creative</Link>
                       </li>
                       <li>
-                        <a target="_blank" rel="noopener noreferrer" href="http://www.batoutofhellmusical.com.au/" className="link">Australia</a>
+                        <a href="http://www.batoutofhellmusical.com.au/" className="link" target="_blank" rel="noopener noreferrer">Australia</a>
                       </li>
                     </ul>
                   </Col>
                 </Row>
 
-
               </nav>
+             
             </div>
             <button
               className={`nav-toggle ${navToggled ? 'active' : ''} ${collapsed || blueWithoutScroll ? 'collapsed' : ''} d-md-none`}
@@ -143,21 +142,22 @@ class Header extends Component {
 
           </div>
         </header>
-
+        </>
+        }
         <nav id="navbarSupportedContent"
           className={`nav mobile-nav ${navToggled ? 'active' : ''}  ${collapsed || blueWithoutScroll ? 'collapsed' : ''}`}>
           <ul className="nav__btns">
-            <li>
-              <a target="_blank" rel="noopener noreferrer" href="https://batoutofhellmusical.com" className="link">Home</a>
+           <li>
+                <Link activeClassName="active" to="/" className="link">Home</Link>
             </li>
             <li>
               <Link activeClassName="active" to="/tour-dates" className="link">Tour Dates</Link>
             </li>
-            <li>
-              <a href="https://dev.batoutofhellmusical.com/website/media.php" className="link">Media</a>
+
+               <Link activeClassName="active" to="/media" className="link">Media</Link>
             </li>
-            <li>
-              <a href="https://dev.batoutofhellmusical.com/website/cast-and-creative.php" className="link">Creative</a>
+           <li>
+                <Link activeClassName="active" to="/cast-creative" className="link">Creative</Link>
             </li>
             <li>
               <a target="_blank" rel="noopener noreferrer" href="http://www.batoutofhellmusical.com.au/" className="link">Australia</a>
