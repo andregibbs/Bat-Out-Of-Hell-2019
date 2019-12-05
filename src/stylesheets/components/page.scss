@@ -13,10 +13,10 @@
 
 body {
     background-image: none;
+	background-color: black;
 
 	@include media-breakpoint-up(lg) {
 			background-image: url(../images/landing-lg.jpg);
-			background-color: black;
 			background-size: contain;
 			background-repeat: no-repeat;
 			background-position: top center;

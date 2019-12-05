@@ -26,7 +26,7 @@ class IndexPage extends Component {
         <Layout
           headData={headData}
         >
-          <div className="page">
+          <div>
             <div className="main-header--home">
               <div className="header-wrapper">
 
