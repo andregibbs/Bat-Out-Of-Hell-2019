@@ -153,7 +153,7 @@ class Header extends Component {
             <li>
               <Link activeClassName="active" to="/tour-dates" className="link">Tour Dates</Link>
             </li>
-
+            <li>
                <Link activeClassName="active" to="/media" className="link">Media</Link>
             </li>
            <li>
